@@ -4,11 +4,11 @@ metadata:
   name: nodeport-service
   labels:
     app: wonderful
-    version: v2
+    version: v1
 spec:
   type: NodePort
   selector:
-    version: v2
+    version: v1
   ports:
     - protocol: TCP
       port: 80        # The port the service exposes
